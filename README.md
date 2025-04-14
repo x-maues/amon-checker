@@ -38,6 +38,13 @@ The Akash Provider Checker continuously monitors the Akash Network's provider fl
 3. ✅ Measurements are validated and formatted according to subnet specifications
 4. 📤 Verified measurements are submitted to the Checker Network
 
+<div align="center">
+  <img src="/flow.png" alt="Checker Network Logo" width="200">
+  
+
+</div>
+
+
 ## 🔧 Technical Specifications
 
 - **Provider Health Metrics**: Response time, availability, resource capacity
@@ -45,7 +52,39 @@ The Akash Provider Checker continuously monitors the Akash Network's provider fl
 - **Measurement Frequency**: Configurable intervals for health checks and updates
 - **Auto-scaling**: Dynamic provider list management with configurable thresholds
 
+<div align="center">
+  <img src="/output.png" alt="Checker Network Logo" width="200">
+  
+     Display intelligence data locally
+
+</div>
+
 ## 🚀 Usage
+## ⚙️ Configuration for the AMON Checker
+
+Environment variables for subnet customization:
+
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `AKASH_API_URL` | Akash Network API endpoint | `https://console-api.akash.network` |
+| `CHECKER_API_URL` | Checker Network API endpoint | `https://api.checker.network` |
+| `MEASUREMENT_DELAY` | Inter-measurement delay in ms | `60000` |
+| `UPDATE_NODES_DELAY` | Provider list refresh interval in ms | `300000` |
+| `MIN_PROVIDERS_REQUIRED` | Minimum provider count threshold | `3` |
+
+## 📁 AMON Project Structure
+
+```
+├── main.js              # Entry point and measurement loop
+└── lib/
+    ├── akash-client     # Better provider management with checks
+    ├── nodes.js         # Provider discovery and management
+    ├── measure.js       # Health and resource measurements
+    ├── submit-measurement.js  # Measurement submission
+    ├── constants.js     # Configuration constants
+    ├── http-assertions.js     # Response validation
+    └── random.js        # Utility functions for randomized picking
+```
 
 ### Setting up the Database
 
@@ -77,32 +116,4 @@ cd amon
 zinnia run main.js
 ```
 
-## ⚙️ Configuration
-
-Environment variables for subnet customization:
-
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `AKASH_API_URL` | Akash Network API endpoint | `https://console-api.akash.network` |
-| `CHECKER_API_URL` | Checker Network API endpoint | `https://api.checker.network` |
-| `MEASUREMENT_DELAY` | Inter-measurement delay in ms | `60000` |
-| `UPDATE_NODES_DELAY` | Provider list refresh interval in ms | `300000` |
-| `MIN_PROVIDERS_REQUIRED` | Minimum provider count threshold | `3` |
-
-## 📁 Project Structure
-
-```
-├── main.js              # Entry point and measurement loop
-└── lib/
-    ├── akash-client     # Better provider management with checks
-    ├── nodes.js         # Provider discovery and management
-    ├── measure.js       # Health and resource measurements
-    ├── submit-measurement.js  # Measurement submission
-    ├── constants.js     # Configuration constants
-    ├── http-assertions.js     # Response validation
-    └── random.js        # Utility functions for randomized picking
-```
-
-## 📜 License
-
-MIT
+## -Maues
