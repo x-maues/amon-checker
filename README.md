@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="/logo.png" alt="Checker Network Logo" width="200">
+</div>
+
 # Akash Provider Checker Subnet
 
 A high-performance subnet for monitoring and validating Akash Network provider health, resource availability, and performance metrics. This subnet is part of the Checker Network ecosystem, ensuring reliable decentralized compute infrastructure.

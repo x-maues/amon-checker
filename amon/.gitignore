@@ -1,3 +1,6 @@
+# Allow logo
+!logo.png
+
 # Dependencies
 node_modules/
 
