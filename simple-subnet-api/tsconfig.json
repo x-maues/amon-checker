@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "skipLibCheck": true,
+    "lib": ["es2022"],
+    "target": "es2022",
+    "module": "Node16",
+    "moduleResolution": "node16",
+
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist",
+    "declarationMap": true,
+    "resolveJsonModule": true
+  },
+  "include": ["bin", "lib", "test"],
+  "exclude": ["dist/**/*"]
+}

@@ -1,0 +1,280 @@
+Akash is an open decentralized network that facilitates the secure and efficient buying and selling of computing resources. Purpose-built for public utility, it is fully open-source with an active community of contributors.P 
+Available Nodes
+
+A list of publicly available RPC nodes recommended for use:
+
+Trusted Community RPC Nodes
+
+https://rpc.akashnet.net:443
+
+https://rpc.akash.forbole.com:443
+
+https://rpc-akash.ecostake.com:443
+
+https://akash-rpc.polkachu.com:443
+
+https://akash.c29r3.xyz:443/rpc, akash api 
+
+Console API
+ v1 
+OAS 3.0
+/v1/doc
+Access Akash data from our indexer
+
+Servers
+
+https://console-api.akash.network/v1
+Blocks
+
+
+GET
+/blocks
+Get a list of recent blocks.
+
+
+GET
+/blocks/{height}
+Get a block by height.
+
+
+GET
+/predicted-block-date/{height}
+Get the estimated date of a future block.
+
+
+GET
+/predicted-date-height/{timestamp}
+Get the estimated height of a future date and time.
+
+Transactions
+
+
+GET
+/transactions
+Get a list of transactions.
+
+
+GET
+/transactions/{hash}
+Get a transaction by hash.
+
+
+GET
+/addresses/{address}/transactions/{skip}/{limit}
+Get a list of transactions for a given address.
+
+Addresses
+
+
+GET
+/addresses/{address}
+Get address details
+
+
+GET
+/addresses/{address}/transactions/{skip}/{limit}
+Get a list of transactions for a given address.
+
+
+GET
+/addresses/{address}/deployments/{skip}/{limit}
+Get a list of deployments owner by an address.
+
+Deployments
+
+
+GET
+/addresses/{address}/deployments/{skip}/{limit}
+Get a list of deployments owner by an address.
+
+
+GET
+/providers/{provider}/deployments/{skip}/{limit}
+Get a list of deployments for a provider.
+
+
+GET
+/deployment/{owner}/{dseq}
+Get deployment details
+
+Providers
+
+
+GET
+/providers/{address}
+Get a provider details.
+
+
+GET
+/providers
+Get a list of providers.
+
+
+GET
+/providers/{provider}/deployments/{skip}/{limit}
+Get a list of deployments for a provider.
+
+
+GET
+/provider-attributes-schema
+Get the provider attributes schema
+
+
+GET
+/provider-regions
+Get a list of provider regions
+
+
+GET
+/auditors
+Get a list of auditors.
+
+
+GET
+/provider-active-leases-graph-data/{providerAddress}
+
+
+GET
+/trial-providers
+Get a list of trial providers.
+
+
+GET
+/provider-dashboard/{owner}
+Get dashboard data for provider console.
+
+
+GET
+/provider-versions
+Get providers grouped by version.
+
+Validators
+
+
+GET
+/validators
+
+
+GET
+/validators/{address}
+
+Proposals
+
+
+GET
+/proposals
+
+
+GET
+/proposals/{id}
+
+Other
+
+
+GET
+/templates
+
+
+GET
+/templates-list
+
+
+GET
+/templates/{id}
+
+
+POST
+/pricing
+Estimate the price of a deployment on akash and other cloud providers.
+
+Analytics
+
+
+GET
+/network-capacity
+
+
+GET
+/market-data
+
+
+GET
+/dashboard-data
+
+
+GET
+/provider-graph-data/{dataName}
+
+
+GET
+/graph-data/{dataName}
+
+
+GET
+/provider-active-leases-graph-data/{providerAddress}
+
+
+GET
+/leases-duration/{owner}
+Get leases durations.
+
+Chain
+
+
+GET
+/nodes/mainnet
+Get a list of mainnet nodes (api/rpc).
+
+
+GET
+/nodes/sandbox
+Get a list of sandbox nodes (api/rpc).
+
+
+GET
+/nodes/testnet
+Get a list of testnet nodes (api/rpc).
+
+
+GET
+/version/mainnet
+Get mainnet version.
+
+
+GET
+/version/sandbox
+Get sandbox version.
+
+
+GET
+/version/testnet
+Get testnet version.
+
+Trial
+
+
+GET
+/trial-providers
+Get a list of trial providers.
+
+Gpu
+
+
+GET
+/gpu
+Get a list of gpu models and their availability.
+
+
+GET
+/gpu-models
+Get a list of gpu models per vendor. Based on the content from https://raw.githubusercontent.com/akash-network/provider-configs/main/devices/pcie/gpus.json.
+
+
+GET
+/gpu-prices
+Get a list of gpu models with their availability and pricing.
+
+
+GET
+/gpu-breakdown
+Gets gpu analytics breakdown by vendor and model. If no vendor or model is provided, all GPUs are returned.
