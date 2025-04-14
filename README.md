@@ -18,7 +18,7 @@
 
 ## 📋 Overview
 
-The Akash Provider Checker continuously monitors the Akash Network(a DePIN compute marketplace)'s provider fleet, collecting critical metrics and submitting verifiable measurements to the Checker Network. This subnet is a vital component of the Checker Network ecosystem, ensuring **reliable**, **fairly collected** intelligence data from DePINs and Web3 networks.
+Amon continuously monitors the Akash Network(a DePIN compute marketplace)'s provider fleet, collecting critical metrics and submitting verifiable measurements to the Checker Network. This subnet is a vital component of the Checker Network ecosystem, ensuring **reliable**, **fairly collected** intelligence data from DePINs and Web3 networks.
 
 ### ✨ Key Features
 
