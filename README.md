@@ -9,6 +9,12 @@
   ![Built for Checker Network](https://img.shields.io/badge/Built%20for-Checker%20Network-orange)
 </div>
 
+</div>
+<div align="center" style="display: flex; justify-content: center; align-items: center; margin: 30px 0;">
+  <img src="/akash-white-t.png" alt="Akash Network" height="60">
+  <img src="/checker.png" alt="Checker Network" height="60" style="margin: 0 40px;">
+  <img src="/filecoin.svg.png" alt="Filecoin" height="60">
+</div>
 ## 📋 Overview
 
 The Akash Provider Checker continuously monitors the Akash Network's provider fleet, collecting critical metrics and submitting verifiable measurements to the Checker Network. This subnet is a vital component of the Checker Network ecosystem, ensuring **reliable**, **fairly collected** intelligence data from DePINs and Web3 networks.
