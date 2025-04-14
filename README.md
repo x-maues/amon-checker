@@ -1,4 +1,4 @@
-# 🚀 AMON Checker
+# AMON Checker
 
 <div align="center">
   <img src="/logo.png" alt="Checker Network Logo" width="200">
@@ -15,6 +15,7 @@
   <img src="checker.png" alt="Checker Network" height="60" style="margin-right: 50px; margin-left: 50px;">
   <img src="Filecoin.png" alt="Filecoin" height="60" style="margin-left: 50px;">
 </div>
+
 ## 📋 Overview
 
 The Akash Provider Checker continuously monitors the Akash Network's provider fleet, collecting critical metrics and submitting verifiable measurements to the Checker Network. This subnet is a vital component of the Checker Network ecosystem, ensuring **reliable**, **fairly collected** intelligence data from DePINs and Web3 networks.
