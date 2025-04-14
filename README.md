@@ -44,7 +44,7 @@ docker exec -it spark-db psql -U $env:UserName -c "CREATE DATABASE simple_subnet
 docker exec -it spark-db psql -U $env:UserName -d simple_subnet_api -c "CREATE TABLE daily_measurements ( subnet VARCHAR(50) NOT NULL, day DATE NOT NULL, total BIGINT DEFAULT 0, successful BIGINT DEFAULT 0, PRIMARY KEY (subnet, day) );"
 CREATE TABLE
 
- docker exec -it spark-db psql -U $env:UserName -d simple_subnet_api -c "\dt"
+docker exec -it spark-db psql -U $env:UserName -d simple_subnet_api -c "\dt"
                List of relations
  Schema |        Name        | Type  |  Owner
 --------+--------------------+-------+----------
@@ -64,6 +64,7 @@ simple_subnet_api=# SELECT * FROM daily_measurements;
 
 simple_subnet_api=#
 ```
+
 Setup simple subnet api for submitting measurements locally:
 
 ```bash
@@ -110,4 +111,3 @@ Environment variables for subnet customization:
 ## License
 
 MIT
-
