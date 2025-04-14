@@ -1,19 +1,19 @@
-# 🚀 Akash Provider Checker Subnet
+# 🚀 AMON Checker
 
 <div align="center">
   <img src="/logo.png" alt="Checker Network Logo" width="200">
   
-  ### Reliable Intelligence Data for Akash Network
+  ### Reliable Intelligence Data for Akash Network (A Checker Subnet)
   
   ![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
   ![Built for Checker Network](https://img.shields.io/badge/Built%20for-Checker%20Network-orange)
 </div>
 
 </div>
-<div align="center" style="display: flex; justify-content: center; align-items: center; margin: 30px 0;">
-  <img src="/akash-white-t.png" alt="Akash Network" height="60">
-  <img src="/checker.png" alt="Checker Network" height="60" style="margin: 0 40px;">
-  <img src="/filecoin.svg.png" alt="Filecoin" height="60">
+<div align="center" style="padding-top: 40px; padding-bottom: 40px; margin: 40px 0;">
+  <img src="akash-white-t.png" alt="Akash Network" height="40" style="margin-right: 50px;">
+  <img src="checker.png" alt="Checker Network" height="60" style="margin-right: 50px; margin-left: 50px;">
+  <img src="Filecoin.png" alt="Filecoin" height="60" style="margin-left: 50px;">
 </div>
 ## 📋 Overview
 
